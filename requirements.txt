@@ -7,3 +7,4 @@ flask-sqlalchemy==2.3.2
 flask-sockets==0.2.1
 meinheld==0.6.1
 click==6.7
+gevent>=24.10.1 # not directly required, pinned by Snyk to avoid a vulnerability
